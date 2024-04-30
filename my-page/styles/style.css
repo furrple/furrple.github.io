@@ -1,0 +1,81 @@
+
+/*  #5bb4e5 - blue,
+    #565ac5 - light purple,
+    #49359b - dark purple,    
+    #452a68 - dark purple,
+
+    #af69ef - purple - primary
+    #6c41a1 - light purple, - secondary
+    #3a3b3c - dark gray, -bg color
+    #e39ff6 - lilac - super light
+*/
+
+body {
+    background-color: #3a3b3c !important;
+}
+
+.p {
+    color: #d63384 !important
+} */
+
+
+img {
+    width: 100%;
+    height: 100%
+}
+
+.skill-block {
+    width: 30%
+}
+
+@media (min-width: 991px) and (max-width:1200px) {
+    .skill-block {
+        padding: 32px !important
+    }
+}
+
+@media (min-width: 1200px) {
+    .skill-block {
+        padding: 56px !important
+    }
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+}
+
+.dropdown-item:hover {
+  background-color: #49359b !important;
+  color: white !important;
+}
+
+.linked-text {
+    color: white;
+    text-decoration: none; /* Remove underline by default */
+}
+
+.linked-text:hover {
+    color: violet;
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.portfolio-image {
+    width: 100%; /* Ensure the image fills its container */
+    height: 125px; /* Set a fixed height for uniformity */
+    background-color: white; /* Set white background */
+    object-fit: contain; /* Ensure the image covers the entire container */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.grid-item {
+    width: 100%; /* Ensure grid items occupy full width */
+    text-align: center;
+}
